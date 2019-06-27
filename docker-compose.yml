@@ -1,0 +1,11 @@
+version: "2"
+services:  
+  db-mysql:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=my_secret_pw_shh
+      - MYSQL_DATABASE=test_db
+      - MYSQL_USER=devuser
+      - MYSQL_PASSWORD=devpass
+    ports:
+      - 3306:3306
