@@ -20,7 +20,7 @@
     "graphql": "^14.3.0",
     "graphql-tools": "^4.0.4",
     "mysql2": "1.4.2",
-    "sequelize": "4.13.10",
+    "sequelize": "5.21.2",
     "sequelize-cli": "3.0.0"
   },
   "devDependencies": {
